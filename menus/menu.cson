@@ -21,6 +21,10 @@
             'label': 'Revert'
             'command': 'perforce:revert'
           },
+          {
+            'label': 'Set Workspace'
+            'command': 'perforce:set-workspace'
+          },
         ]
       }
     ]

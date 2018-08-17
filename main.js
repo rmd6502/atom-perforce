@@ -176,6 +176,7 @@ function setupCommands() {
             atom.commands.add('atom-workspace', prefix + ':sync', stateChangeWrapper(atomPerforce.sync));
             atom.commands.add('atom-workspace', prefix + ':revert', stateChangeWrapper(revertReset));
             atom.commands.add('atom-workspace', prefix + ':load-opened-files', stateChangeWrapper(atomPerforce.loadAllOpenFiles));
+            atom.commands.add('atom-workspace', prefix + ':set-workspace', stateChangeWrapper(atomPerforce.setWorkspace));
         });
         commandsSetup = true;
     }

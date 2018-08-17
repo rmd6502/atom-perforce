@@ -3,4 +3,5 @@
   'alt-p a': 'perforce:add',
   'alt-p s': 'perforce:sync',
   'alt-p r': 'perforce:revert',
-  'alt-p l': 'perforce:load-open-files'
+  'alt-p l': 'perforce:load-open-files',
+  'alt-p w': 'perforce:set-workspace'
